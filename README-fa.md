@@ -85,7 +85,7 @@
     <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35" />
   </h2>
   <details open>
-    <summary><b>🎨 جادوی فرانت‌اند</b> <i>(برای باز/بسته شدن کلیک کنید)</i></summary>
+    <summary><b>🎨 جادوی فرانت‌اند</b></summary>
     <br>
     <div>
       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />

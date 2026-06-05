@@ -95,7 +95,7 @@
   </h2>
   
   <details open>
-    <summary><b>🎨 جادووی فرانت‌اند</b> <i>(بۆ کردن/داخستن کلیک بکە)</i></summary>
+    <summary><b>🎨 جادووی فرانت‌اند</b></summary>
     <br>
     <div>
       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
