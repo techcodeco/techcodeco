@@ -3,13 +3,13 @@
     <img src="assets/typingEffect.svg" />
   </h1>
   
-  <div align="center" style="margin: 20px 0;">
-    <div style="display: inline-flex; flex-wrap: wrap; gap: 12px; background: rgba(10, 10, 10, 0.6); backdrop-filter: blur(8px); padding: 10px 24px; border-radius: 40px; border: 1px solid rgba(255, 107, 107, 0.2);">
-     <a href="README.md" style="color:#FFFFFF;text-decoration: none; font-family: monospace; font-size: 15px; font-weight: 500;"><img src="assets/gbFlag.png" width="30"/> English</a>
+  <div dir="rtl"  align="center" style="margin: 20px 0;">
+    <div dir="rtl" style="display: inline-flex; flex-wrap: wrap; gap: 12px; background: rgba(10, 10, 10, 0.6); backdrop-filter: blur(8px); padding: 10px 24px; border-radius: 40px; border: 1px solid rgba(255, 107, 107, 0.2);">
+     <a dir="rtl" href="README.md" style="color:#FFFFFF;text-decoration: none; font-family: monospace; font-size: 15px; font-weight: 500;"><img src="assets/gbFlag.png" width="30"/> انگلیسی</a>
          <span style="color: #444;">/</span>
-         <a href="persian.html" style="color: #FF6B6B; text-decoration: none; font-family: monospace; font-size: 15px;"><img src="assets/iranflag.jpg" width="30"/> فارسی</a>
+         <a dir="rtl"  href="persian.html" style="color: #FF6B6B; text-decoration: none; font-family: monospace; font-size: 15px;"><img src="assets/iranflag.jpg" width="30"/> فارسی</a>
          <span style="color: #444;">/</span>
-         <a href="README-ku.md" style="color: #fff; text-decoration: none; font-family: monospace; font-size: 15px;"><img src="assets/kuflag.jpg" width="30"/> کوردی</a>
+         <a dir="rtl"  href="README-ku.md" style="color: #fff; text-decoration: none; font-family: monospace; font-size: 15px;"><img src="assets/kuflag.jpg" width="30"/> کوردی</a>
     </div>
   </div>
   <br>
@@ -67,11 +67,6 @@
     <tr>
       <td width="100%">
         <img src="https://github-stats-alpha.vercel.app/api?username=techcodeco&cc=0a0a0a&tc=FF6B6B&ic=4ECDC4&bc=0a0a0a" width="100%" />
-      </td>
-    </tr>
-    <tr>
-      <td width="100%">
-        <img src="https://streak-stats.demolab.com/?user=techcodeco&hide_border=true&background=0a0a0a&stroke=FF6B6B&ring=4ECDC4&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=FF6B6B&currStreakLabel=4ECDC4" width="100%" />
       </td>
     </tr>
     <tr>
@@ -215,9 +210,9 @@
     <a href="https://github.com/techcodeco">
       <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
     </a>
-    <a href="https://instagram.com/techcode.web">
-      <img src="https://img.shields.io/badge/Instagram-%40YOUR_USERNAME-E4405F?style=flat&logo=instagram&logoColor=white" />
-    </a>
+   <a href="https://www.instagram.com/techcode.web">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
     <a href="mailto:mafrwzh4@gmail.com">
       <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
     </a>
@@ -238,7 +233,7 @@
   <sub>
     💻 <b>"کدنویسی مراقبه منه، دیباگ کردن یوگام"</b>
     <br>
-    <i>ساخته شده با ☕ و ❤️ توسط محمد از بوکان</i>
+    <i>ساخته شده با ☕ و ❤️ توسط محمد افروزه از بوکان</i>
   </sub>
   
 </div>
