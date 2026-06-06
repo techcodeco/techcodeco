@@ -17,11 +17,9 @@
   
 </div>
 <div align="center">
- <a href="https://techcodeco.github.io/techcodeco/">پورتفولیوی من</a>
+ <a target="_blank" style="text-decoration:underline; color:#FF6B6B;font-size: 30px;" href="https://techcodeco.github.io/techcodeco/">پۆرتفۆلیۆی من</a>
 </div>
-<br>
 <div align="center">
-  
   <h2>
     <img src="assets/sayHi.gif" width="35" />
     <b>✦ چیرۆکی پشت کۆدەکان ✦</b>

@@ -15,16 +15,11 @@
 </div>
 </div>
   </div>
-
+</br>
 <div align="center">
- <a href="https://techcodeco.github.io/techcodeco/">my portfolio</a>
+ <a style="text-decoration:underline; color:#FF6B6B;font-size: 30px;" href="https://techcodeco.github.io/techcodeco/">MY PORTFOLIO</a>
 </div>
-
-  <br>
-  
 </div>
-
-<br>
 <div align="center">
   
   <h2>
