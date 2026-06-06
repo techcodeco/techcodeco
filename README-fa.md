@@ -52,6 +52,7 @@
           </tr>
         </table>
         <br />
+        <img src="https://img.shields.io/badge/-Full--Stack-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
         <img src="https://img.shields.io/badge/-Self--Taught-1a1a1a?style=flat-square&logo=code&logoColor=FF6B6B" />
        </td>
     </tr>
