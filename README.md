@@ -14,10 +14,12 @@
   </div>
 </div>
 </div>
-
-<br>
   </div>
-  
+
+<div align="center">
+ <a href="https://techcodeco.github.io/techcodeco/">my portfolio</a>
+</div>
+
   <br>
   
 </div>
