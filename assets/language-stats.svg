@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="315" viewBox="0 0 1000 315" role="img" aria-labelledby="title desc">
+  <title id="title">TECHCODE language statistics setup</title>
+  <desc id="desc">Run the GitHub Actions workflow to generate language statistics from public repositories.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020"/><stop offset="55%" stop-color="#111A32"/><stop offset="100%" stop-color="#21153F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="998" height="313" rx="18" fill="url(#bg)" stroke="#34305B" stroke-width="1.5"/>
+  <rect x="28" y="27" width="4" height="58" rx="2" fill="url(#accent)"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="48" y="39" fill="#A78BFA" font-size="12" font-weight="700" letter-spacing="2">TECHCODE / GITHUB INSIGHTS</text>
+    <text x="48" y="73" fill="#F8FAFC" font-size="25" font-weight="700">Language Distribution</text>
+    <text x="500" y="176" fill="#E2E8F0" font-size="17" font-weight="600" text-anchor="middle">Your language chart is being prepared.</text>
+    <text x="500" y="207" fill="#94A3B8" font-size="13" text-anchor="middle">Run “Update GitHub language statistics” from the Actions tab.</text>
+    <text x="500" y="232" fill="#94A3B8" font-size="12" text-anchor="middle">The workflow will replace this placeholder with real repository data.</text>
+    <line x1="42" y1="270" x2="958" y2="270" stroke="#343D59"/>
+    <text x="42" y="294" fill="#94A3B8" font-size="12">Generated automatically with GitHub Actions</text>
+    <text x="958" y="294" fill="#94A3B8" font-size="12" text-anchor="end">CODE • BUILD • LEVEL UP</text>
+  </g>
+</svg>

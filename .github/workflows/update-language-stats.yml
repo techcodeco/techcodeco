@@ -1,0 +1,51 @@
+name: Update GitHub language statistics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 3 * * *'
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'README.md'
+      - 'scripts/generate-language-stats.mjs'
+      - '.github/workflows/update-language-stats.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-language-statistics
+  cancel-in-progress: true
+
+jobs:
+  update-language-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate language statistics SVG
+        run: node scripts/generate-language-stats.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: techcodeco
+
+      - name: Commit updated statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/language-stats.svg
+          if git diff --cached --quiet; then
+            echo "Language statistics are already up to date."
+          else
+            git commit -m "chore: update GitHub language statistics"
+            git push
+          fi
