@@ -51,7 +51,7 @@ I enjoy designing modular systems, developing APIs, working with databases, and 
 ### Languages & Runtime
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,bun&theme=dark" alt="TypeScript, JavaScript, Bun" />
+  <img src="https://skillicons.dev/icons?i=ts,js,bun,nodejs&theme=dark" alt="TypeScript, JavaScript, Bun, Nodejs" />
 </p>
 
 ### Frontend Development
@@ -63,7 +63,7 @@ I enjoy designing modular systems, developing APIs, working with databases, and 
 ### Backend & Databases
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,mongodb,redis&theme=dark" alt="Node.js, MongoDB, Redis" />
+  <img src="https://skillicons.dev/icons?i=expressjs,mongodb,redis&theme=dark" alt="MongoDB, Redis, ExpressJs" />
 </p>
 
 ### DevOps & Tools
