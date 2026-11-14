@@ -1,25 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="315" viewBox="0 0 1000 315" role="img" aria-labelledby="title desc">
-  <title id="title">TECHCODE language statistics setup</title>
-  <desc id="desc">Run the GitHub Actions workflow to generate language statistics from public repositories.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="464" viewBox="0 0 1000 464" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub language statistics for techcodeco</title>
+  <desc id="desc">Programming language distribution across 6 public non-fork repositories.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0B1020"/><stop offset="55%" stop-color="#111A32"/><stop offset="100%" stop-color="#21153F"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1020" />
+      <stop offset="55%" stop-color="#111A32" />
+      <stop offset="100%" stop-color="#21153F" />
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#38BDF8"/>
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#38BDF8" />
     </linearGradient>
+    <style>
+      text { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .eyebrow { fill: #A78BFA; font-size: 12px; font-weight: 700; letter-spacing: 2px; }
+      .heading { fill: #F8FAFC; font-size: 25px; font-weight: 700; }
+      .muted { fill: #94A3B8; font-size: 12px; }
+      .metric { fill: #E2E8F0; font-size: 13px; font-weight: 600; }
+      .language { fill: #E2E8F0; font-size: 14px; font-weight: 600; }
+      .percent { fill: #C4B5FD; font-size: 13px; font-weight: 700; }
+      .bytes { fill: #94A3B8; font-size: 12px; }
+      .empty { fill: #E2E8F0; font-size: 15px; font-weight: 600; }
+    </style>
   </defs>
-  <rect x="1" y="1" width="998" height="313" rx="18" fill="url(#bg)" stroke="#34305B" stroke-width="1.5"/>
-  <rect x="28" y="27" width="4" height="58" rx="2" fill="url(#accent)"/>
-  <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="48" y="39" fill="#A78BFA" font-size="12" font-weight="700" letter-spacing="2">TECHCODE / GITHUB INSIGHTS</text>
-    <text x="48" y="73" fill="#F8FAFC" font-size="25" font-weight="700">Language Distribution</text>
-    <text x="500" y="176" fill="#E2E8F0" font-size="17" font-weight="600" text-anchor="middle">Your language chart is being prepared.</text>
-    <text x="500" y="207" fill="#94A3B8" font-size="13" text-anchor="middle">Run “Update GitHub language statistics” from the Actions tab.</text>
-    <text x="500" y="232" fill="#94A3B8" font-size="12" text-anchor="middle">The workflow will replace this placeholder with real repository data.</text>
-    <line x1="42" y1="270" x2="958" y2="270" stroke="#343D59"/>
-    <text x="42" y="294" fill="#94A3B8" font-size="12">Generated automatically with GitHub Actions</text>
-    <text x="958" y="294" fill="#94A3B8" font-size="12" text-anchor="end">CODE • BUILD • LEVEL UP</text>
-  </g>
+  <rect x="1" y="1" width="998" height="462" rx="18" fill="url(#background)" stroke="#34305B" stroke-width="1.5" />
+  <rect x="28" y="27" width="4" height="58" rx="2" fill="url(#accent)" />
+  <text x="48" y="39" class="eyebrow">TECHCODE  /  GITHUB INSIGHTS</text>
+  <text x="48" y="73" class="heading">Language Distribution</text>
+  <text x="955" y="43" text-anchor="end" class="metric">6 PUBLIC REPOSITORIES</text>
+  <text x="955" y="66" text-anchor="end" class="muted">6 languages detected</text>
+  <rect x="42" y="132" width="916" height="14" rx="7" fill="#202A42" />
+  <clipPath id="barClip"><rect x="42" y="132" width="916" height="14" rx="7" /></clipPath>
+  <g clip-path="url(#barClip)"><rect x="42.00" y="132" width="741.18" height="14" fill="#3178C6" /><rect x="783.18" y="132" width="100.28" height="14" fill="#F1E05A" /><rect x="883.46" y="132" width="53.79" height="14" fill="#563D7C" /><rect x="937.25" y="132" width="19.94" height="14" fill="#E34C26" /><rect x="957.19" y="132" width="0.45" height="14" fill="#89E051" /></g>
+  
+      <g>
+        <circle cx="52" cy="193" r="5.5" fill="#3178C6" />
+        <text x="70" y="198" class="language">TypeScript</text>
+        <rect x="270" y="187" width="420" height="10" rx="5" fill="#202A42" />
+        <rect x="270" y="187" width="339.84" height="10" rx="5" fill="#3178C6" />
+        <text x="720" y="198" class="percent">80.9%</text>
+        <text x="950" y="198" text-anchor="end" class="bytes">1.0 MB</text>
+      </g>
+
+      <g>
+        <circle cx="52" cy="232" r="5.5" fill="#F1E05A" />
+        <text x="70" y="237" class="language">JavaScript</text>
+        <rect x="270" y="226" width="420" height="10" rx="5" fill="#202A42" />
+        <rect x="270" y="226" width="45.98" height="10" rx="5" fill="#F1E05A" />
+        <text x="720" y="237" class="percent">10.9%</text>
+        <text x="950" y="237" text-anchor="end" class="bytes">143.7 KB</text>
+      </g>
+
+      <g>
+        <circle cx="52" cy="271" r="5.5" fill="#563D7C" />
+        <text x="70" y="276" class="language">CSS</text>
+        <rect x="270" y="265" width="420" height="10" rx="5" fill="#202A42" />
+        <rect x="270" y="265" width="24.66" height="10" rx="5" fill="#563D7C" />
+        <text x="720" y="276" class="percent">5.9%</text>
+        <text x="950" y="276" text-anchor="end" class="bytes">77.1 KB</text>
+      </g>
+
+      <g>
+        <circle cx="52" cy="310" r="5.5" fill="#E34C26" />
+        <text x="70" y="315" class="language">HTML</text>
+        <rect x="270" y="304" width="420" height="10" rx="5" fill="#202A42" />
+        <rect x="270" y="304" width="9.14" height="10" rx="5" fill="#E34C26" />
+        <text x="720" y="315" class="percent">2.2%</text>
+        <text x="950" y="315" text-anchor="end" class="bytes">28.6 KB</text>
+      </g>
+
+      <g>
+        <circle cx="52" cy="349" r="5.5" fill="#89E051" />
+        <text x="70" y="354" class="language">Shell</text>
+        <rect x="270" y="343" width="420" height="10" rx="5" fill="#202A42" />
+        <rect x="270" y="343" width="2.00" height="10" rx="5" fill="#89E051" />
+        <text x="720" y="354" class="percent">0.0%</text>
+        <text x="950" y="354" text-anchor="end" class="bytes">663 B</text>
+      </g>
+
+      <g>
+        <circle cx="52" cy="388" r="5.5" fill="#000080" />
+        <text x="70" y="393" class="language">Lua</text>
+        <rect x="270" y="382" width="420" height="10" rx="5" fill="#202A42" />
+        <rect x="270" y="382" width="2.00" height="10" rx="5" fill="#000080" />
+        <text x="720" y="393" class="percent">0.0%</text>
+        <text x="950" y="393" text-anchor="end" class="bytes">523 B</text>
+      </g>
+  <line x1="42" y1="430" x2="958" y2="430" stroke="#343D59" />
+  <text x="42" y="449" class="muted">Updated 14 Nov 2026 · Generated automatically with GitHub Actions</text>
+  <text x="958" y="449" text-anchor="end" class="muted">CODE • BUILD • LEVEL UP</text>
 </svg>
