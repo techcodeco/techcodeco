@@ -60,6 +60,12 @@ I enjoy designing modular systems, developing APIs, working with databases, and 
   <img src="https://skillicons.dev/icons?i=react,nextjs&theme=dark" alt="React and Next.js" />
 </p>
 
+### State Mnagement
+
+<p>
+  <img src="https://skillicons.dev/icons?i=redux&theme=dark" alt="Redux" />
+</p>
+
 ### Backend & Databases
 
 <p>
