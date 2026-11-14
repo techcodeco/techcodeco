@@ -94,11 +94,11 @@ I enjoy designing modular systems, developing APIs, working with databases, and 
 </p>
 
 <p align="center">
-  <a href="https://mohammadafrouzeh.ir">🌐 Portfolio</a>
+  <a href="https://mohammadafrouzeh.ir">Portfolio</a>
   &nbsp; • &nbsp;
-  <a href="https://www.linkedin.com/in/mohammad-afrouzeh"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="" /> LinkedIn</a>
+  <a href="https://www.linkedin.com/in/mohammad-afrouzeh">LinkedIn</a>
   &nbsp; • &nbsp;
-  <a href="mailto:mafrwzh4@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" alt="" /> Email</a>
+  <a href="mailto:mafrwzh4@gmail.com">Email</a>
 </p>
 
 <p align="center">
