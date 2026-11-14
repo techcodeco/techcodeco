@@ -63,13 +63,14 @@ I enjoy designing modular systems, developing APIs, working with databases, and 
 ### Backend & Databases
 
 <p>
-  <img src="https://skillicons.dev/icons?i=expressjs,mongodb,redis&theme=dark" alt="MongoDB, Redis, ExpressJs" />
+  <img src="https://skillicons.dev/icons?i=expressjs,elysia,mongodb,postgres,redis&theme=dark" alt="MongoDB, Redis, Postgres, Elysia, ExpressJs" />
 </p>
+
 
 ### DevOps & Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=linux,docker,nginx,git,github&theme=dark" alt="Linux, Docker, Nginx, Git, GitHub" />
+  <img src="https://skillicons.dev/icons?i=linux,docker,nginx,git,github,vite&theme=dark" alt="Linux, Docker, Nginx, Git, GitHub, Vite" />
 </p>
 
 ---
@@ -95,9 +96,9 @@ I enjoy designing modular systems, developing APIs, working with databases, and 
 <p align="center">
   <a href="https://mohammadafrouzeh.ir">🌐 Portfolio</a>
   &nbsp; • &nbsp;
-  <a href="https://www.linkedin.com/in/mohammad-afrouzeh">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/mohammad-afrouzeh"><img src="https://skillicons.dev/icons?i=linkedin&theme=dark" alt="" /> LinkedIn</a>
   &nbsp; • &nbsp;
-  <a href="mailto:mafrwzh4@gmail.com">Email</a>
+  <a href="mailto:mafrwzh4@gmail.com"><img src="https://skillicons.dev/icons?i=gmail&theme=dark" alt="" /> Email</a>
 </p>
 
 <p align="center">
