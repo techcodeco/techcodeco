@@ -32,13 +32,13 @@
   <text x="955" y="66" text-anchor="end" class="muted">5 languages detected</text>
   <rect x="42" y="132" width="916" height="14" rx="7" fill="#202A42" />
   <clipPath id="barClip"><rect x="42" y="132" width="916" height="14" rx="7" /></clipPath>
-  <g clip-path="url(#barClip)"><rect x="42.00" y="132" width="701.17" height="14" fill="#3178C6" /><rect x="743.17" y="132" width="132.87" height="14" fill="#F1E05A" /><rect x="876.04" y="132" width="81.20" height="14" fill="#563D7C" /><rect x="957.24" y="132" width="0.43" height="14" fill="#89E051" /></g>
+  <g clip-path="url(#barClip)"><rect x="42.00" y="132" width="701.13" height="14" fill="#3178C6" /><rect x="743.13" y="132" width="132.92" height="14" fill="#F1E05A" /><rect x="876.04" y="132" width="81.19" height="14" fill="#563D7C" /><rect x="957.24" y="132" width="0.43" height="14" fill="#89E051" /></g>
   
       <g>
         <circle cx="52" cy="193" r="5.5" fill="#3178C6" />
         <text x="70" y="198" class="language">TypeScript</text>
         <rect x="270" y="187" width="420" height="10" rx="5" fill="#202A42" />
-        <rect x="270" y="187" width="321.50" height="10" rx="5" fill="#3178C6" />
+        <rect x="270" y="187" width="321.48" height="10" rx="5" fill="#3178C6" />
         <text x="720" y="198" class="percent">76.5%</text>
         <text x="950" y="198" text-anchor="end" class="bytes">1.0 MB</text>
       </g>
@@ -47,9 +47,9 @@
         <circle cx="52" cy="232" r="5.5" fill="#F1E05A" />
         <text x="70" y="237" class="language">JavaScript</text>
         <rect x="270" y="226" width="420" height="10" rx="5" fill="#202A42" />
-        <rect x="270" y="226" width="60.92" height="10" rx="5" fill="#F1E05A" />
+        <rect x="270" y="226" width="60.94" height="10" rx="5" fill="#F1E05A" />
         <text x="720" y="237" class="percent">14.5%</text>
-        <text x="950" y="237" text-anchor="end" class="bytes">201.3 KB</text>
+        <text x="950" y="237" text-anchor="end" class="bytes">201.4 KB</text>
       </g>
 
       <g>
@@ -79,6 +79,6 @@
         <text x="950" y="354" text-anchor="end" class="bytes">523 B</text>
       </g>
   <line x1="42" y1="391" x2="958" y2="391" stroke="#343D59" />
-  <text x="42" y="410" class="muted">Updated 18 Nov 2026 · Generated automatically with GitHub Actions</text>
+  <text x="42" y="410" class="muted">Updated 19 Nov 2026 · Generated automatically with GitHub Actions</text>
   <text x="958" y="410" text-anchor="end" class="muted">CODE • BUILD • LEVEL UP</text>
 </svg>
