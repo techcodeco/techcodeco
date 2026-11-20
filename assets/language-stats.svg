@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="425" viewBox="0 0 1000 425" role="img" aria-labelledby="title desc">
   <title id="title">GitHub language statistics for techcodeco</title>
-  <desc id="desc">Programming language distribution across 6 public non-fork repositories.</desc>
+  <desc id="desc">Programming language distribution across 7 public non-fork repositories.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0B1020" />
@@ -28,7 +28,7 @@
   <rect x="28" y="27" width="4" height="58" rx="2" fill="url(#accent)" />
   <text x="48" y="39" class="eyebrow">TECHCODE  /  GITHUB INSIGHTS</text>
   <text x="48" y="73" class="heading">Language Distribution</text>
-  <text x="955" y="43" text-anchor="end" class="metric">6 PUBLIC REPOSITORIES</text>
+  <text x="955" y="43" text-anchor="end" class="metric">7 PUBLIC REPOSITORIES</text>
   <text x="955" y="66" text-anchor="end" class="muted">5 languages detected</text>
   <rect x="42" y="132" width="916" height="14" rx="7" fill="#202A42" />
   <clipPath id="barClip"><rect x="42" y="132" width="916" height="14" rx="7" /></clipPath>
@@ -79,6 +79,6 @@
         <text x="950" y="354" text-anchor="end" class="bytes">523 B</text>
       </g>
   <line x1="42" y1="391" x2="958" y2="391" stroke="#343D59" />
-  <text x="42" y="410" class="muted">Updated 19 Nov 2026 · Generated automatically with GitHub Actions</text>
+  <text x="42" y="410" class="muted">Updated 20 Nov 2026 · Generated automatically with GitHub Actions</text>
   <text x="958" y="410" text-anchor="end" class="muted">CODE • BUILD • LEVEL UP</text>
 </svg>
