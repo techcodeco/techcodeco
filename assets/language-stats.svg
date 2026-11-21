@@ -32,14 +32,14 @@
   <text x="955" y="66" text-anchor="end" class="muted">5 languages detected</text>
   <rect x="42" y="132" width="916" height="14" rx="7" fill="#202A42" />
   <clipPath id="barClip"><rect x="42" y="132" width="916" height="14" rx="7" /></clipPath>
-  <g clip-path="url(#barClip)"><rect x="42.00" y="132" width="701.13" height="14" fill="#3178C6" /><rect x="743.13" y="132" width="132.92" height="14" fill="#F1E05A" /><rect x="876.04" y="132" width="81.19" height="14" fill="#563D7C" /><rect x="957.24" y="132" width="0.43" height="14" fill="#89E051" /></g>
+  <g clip-path="url(#barClip)"><rect x="42.00" y="132" width="607.97" height="14" fill="#3178C6" /><rect x="649.97" y="132" width="236.96" height="14" fill="#F1E05A" /><rect x="886.93" y="132" width="70.40" height="14" fill="#563D7C" /></g>
   
       <g>
         <circle cx="52" cy="193" r="5.5" fill="#3178C6" />
         <text x="70" y="198" class="language">TypeScript</text>
         <rect x="270" y="187" width="420" height="10" rx="5" fill="#202A42" />
-        <rect x="270" y="187" width="321.48" height="10" rx="5" fill="#3178C6" />
-        <text x="720" y="198" class="percent">76.5%</text>
+        <rect x="270" y="187" width="278.77" height="10" rx="5" fill="#3178C6" />
+        <text x="720" y="198" class="percent">66.4%</text>
         <text x="950" y="198" text-anchor="end" class="bytes">1.0 MB</text>
       </g>
 
@@ -47,17 +47,17 @@
         <circle cx="52" cy="232" r="5.5" fill="#F1E05A" />
         <text x="70" y="237" class="language">JavaScript</text>
         <rect x="270" y="226" width="420" height="10" rx="5" fill="#202A42" />
-        <rect x="270" y="226" width="60.94" height="10" rx="5" fill="#F1E05A" />
-        <text x="720" y="237" class="percent">14.5%</text>
-        <text x="950" y="237" text-anchor="end" class="bytes">201.4 KB</text>
+        <rect x="270" y="226" width="108.65" height="10" rx="5" fill="#F1E05A" />
+        <text x="720" y="237" class="percent">25.9%</text>
+        <text x="950" y="237" text-anchor="end" class="bytes">414.1 KB</text>
       </g>
 
       <g>
         <circle cx="52" cy="271" r="5.5" fill="#563D7C" />
         <text x="70" y="276" class="language">CSS</text>
         <rect x="270" y="265" width="420" height="10" rx="5" fill="#202A42" />
-        <rect x="270" y="265" width="37.23" height="10" rx="5" fill="#563D7C" />
-        <text x="720" y="276" class="percent">8.9%</text>
+        <rect x="270" y="265" width="32.28" height="10" rx="5" fill="#563D7C" />
+        <text x="720" y="276" class="percent">7.7%</text>
         <text x="950" y="276" text-anchor="end" class="bytes">123.0 KB</text>
       </g>
 
@@ -79,6 +79,6 @@
         <text x="950" y="354" text-anchor="end" class="bytes">523 B</text>
       </g>
   <line x1="42" y1="391" x2="958" y2="391" stroke="#343D59" />
-  <text x="42" y="410" class="muted">Updated 20 Nov 2026 · Generated automatically with GitHub Actions</text>
+  <text x="42" y="410" class="muted">Updated 21 Nov 2026 · Generated automatically with GitHub Actions</text>
   <text x="958" y="410" text-anchor="end" class="muted">CODE • BUILD • LEVEL UP</text>
 </svg>
